@@ -8,7 +8,7 @@ Figure shows input layer with R elements, one hidden layer with S neurons, and o
 Neural networks are widely used for solving many problems in most science problems of linear and nonlinear cases. Neural network algorithms are always iterative, designed to step by step minimise (targeted minimal error) the difference between the actual output vector of the network and the desired output vector, examples include the Backpropagation (BP) algorithm and the Resilient Propagation (RPROP) algorithm.
 
 
-###3. Back Propagation Learning Algorithm
+### Back Propagation Learning Algorithm
 BP is the most widely used algorithm for supervised learning with multilayered feed-forward networks [22]. A Back Propagation network learns by example. You give the algorithm examples of what you want the network to do and it changes the network’s weights so that, when training is finished, it will give you the required output for a particular input. Back Propagation networks are ideal for simple Pattern Recognition and Mapping Tasks. 
 
  
@@ -27,8 +27,8 @@ Again, the factor “Output (1 - Output )” is present because of the sigmoid s
 5. Having obtained the Error for the hidden layer neurons now proceed as in stage 3 to change the hidden layer weights. By repeating this method we can train a network of any number of layers.
 
 
-###4. Code Implémentation – Back Propagation Algorithm 
-Following Algorithm has been implemented in C++ in the code listing 1.1 to construct and train neural network. 
+Code Implémentation – Back Propagation Algorithm 
+The Code uses the following algorithm
 
 create an empty neural network
 loop
