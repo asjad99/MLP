@@ -32,8 +32,8 @@ The Code uses the following algorithm
 
 create an empty neural network
 loop
-  generate a candidate set of weights
-  load weights into neural network
+ generate a candidate set of weights
+ load weights into neural network
   foreach training vector
     compute the neural output
     compute cross-entropy error
